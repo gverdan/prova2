@@ -29,7 +29,17 @@ int main() {
  cout << num;
  cout << endl;
 
+}
+int funcao (char *palavraAnt, char letraAtual, char letraSubs, char *palavraNova){
+int contador=0;
+int i=0;
+for (; i < strlen(palavraAnt); i++){
+if (palavraAnt[i] == letraAtual){
+  palavraNova[i] == letraSubs;
+  contador++;
+}
+else palavraNova[i] = palavraAnt[i];
 
- 
-
+}
+return contador;
 }
