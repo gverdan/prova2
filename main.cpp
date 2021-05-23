@@ -5,9 +5,9 @@ using namespace std;
 int funcao (char*, char, char, char*);
 
 int main() {
-  int num=0;
+  int  num = 0;
   char palavra[70];
-  char palavratrocada;
+  char palavratrocada[70];
   char palaatual;
   char palatrocada;
 
@@ -19,6 +19,16 @@ int main() {
 
  cout << "Digite a letra para substituir a outra" << endl;cin >> palatrocada;
  fflush (stdin);
+
+ num = funcao(palavra, palaatual, palatrocada, palavratrocada);
+
+ cout << palavratrocada;
+ cout << endl;
+ cout << palavra;
+ cout << endl;
+ cout << num;
+ cout << endl;
+
 
  
 
