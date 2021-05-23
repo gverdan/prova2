@@ -22,11 +22,11 @@ int main() {
 
  num = funcao(palavra, palaatual, palatrocada, palavratrocada);
 
- cout << palavratrocada;
+ cout << "A palavra com as letras trocadas é: " << endl << palavratrocada << endl;
  cout << endl;
- cout << palavra;
+ cout << "A palavra original é: " << endl << palavra << endl;
  cout << endl;
- cout << num;
+ cout << "A quantidade de letras substituidas é: " << endl << num << endl;
  cout << endl;
 
 }
